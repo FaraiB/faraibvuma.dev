@@ -4,7 +4,7 @@
 
 This project is the source code for Farai Bvmuma's online curriculum vitae, available at https://faraibvuma-dev.now.sh/
 
-![Preview](https://github.com/FaraiB/faraibvuma.dev/blob/master/screenshot.png?raw=true)
+![Preview](https://github.com/faraib/faraibvuma.dev/blob/master/screenshot.png?raw=true)
 
 ## Getting Started
 

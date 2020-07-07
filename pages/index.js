@@ -1,8 +1,4 @@
 import React from 'react'
-import getUser from '../utils/getUser'
-
-
-
 import PageHead from '../components/PageHead';
 import Hero from '../components/Hero'
 import Summary from '../components/Summary'
@@ -31,7 +27,8 @@ const Index = ({ repos, user}) => {
     )
 }
 export async function getServerSideProps(context){
-    const { repos, user } = await getUser('faraib')
+    const request = await fetch(process.env.API_URL + '/api/getUser')
+    const { repos, user } = await request.json()
     return{
         props:{
             currentDate: new Date().toString(),

@@ -1,7 +1,6 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import "tailwindcss/preflight";
+@tailwind utilities;
 
-.bg-body{
-    background-color: #324086;
+.bg-body {
+  background-color: #324086;
 }
